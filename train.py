@@ -163,7 +163,7 @@ def main():
 
     tracking_uri = os.getenv(
         "MLFLOW_TRACKING_URI",
-        "http://localhost:7006"
+        "http://localhost:5000"
     )
 
     mlflow.set_tracking_uri(tracking_uri)
