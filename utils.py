@@ -14,7 +14,7 @@
  #     return X, y
 
 
-```python
+
 import pandas as pd
 
 
@@ -58,4 +58,3 @@ def features_and_target(df):
     y = df["quality_score"]
 
     return X, y
-```
